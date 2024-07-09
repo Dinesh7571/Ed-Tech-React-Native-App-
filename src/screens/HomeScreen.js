@@ -1,10 +1,12 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 const HomeScreen = () => {
   return (
     <View  style={styles.main}>
       <Text>HomeScreen</Text>
+      <Icon name="star" size={30} color="#000" />
     </View>
   )
 }
